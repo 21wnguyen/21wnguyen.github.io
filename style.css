@@ -10,9 +10,8 @@ body {
 }
 #body2 {
     background-image:url("city.jpg");
-    background-size:1500px,1800px;
+    background-size:2100px,2000px;
     background-attachment:fixed;
-    
 }
 #nav li{       
     list-style-type:none;
