@@ -2,7 +2,7 @@
 <html> 
     <head>
         <meta charset="utf-8">
-        <title>Resume</title>
+        <title>Portfolio</title>
         <link href="style.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     </head>
@@ -11,9 +11,11 @@
             <li><a href="about.html">About</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
+    </ul>
     <body>
         <br>
+        <br>
+        <h3><a href = "#CYOA">Ryan Simulator</a></h3>
       <h1>
           Bryant Ball Scratch Game
       </h1>
@@ -54,6 +56,45 @@
           it reduces the Life count by 1.
       </p>
       <img src="moreblocks.png">
+      
+      <h1 id="CYOA"> Ryan Simulator </h1>
+      <p>
+         Ryan Simulator is a retelling of a real life experience of Ryan Trang, <br>
+         currently a sophomore at La Quinta High School. The story begins, in  <br>
+         McGarvin Intermediate, where Ryan meets Bina Broung and develops a love <br>
+         interest. However, he is unable to become anything greater than platonic. <br>
+         Things take a nicer turn in freshmen year, where Ryan meets one of Bina's <br>
+         friends, Bady Bran. Sadly, history repeats itself and Ryan must turn to <br>
+         excessive tennis practice to compensate for his sadness.
+      </p>
+      <a href = "https://docs.google.com/drawings/d/1L6GwQRydJ_NvxKSJieNjzJqNtJmSBLfgJKphxICHr3Y/edit?usp=sharing" target = "_BLANK">
+         <img id="flowchart" src = "ryanflowchart.jpg" width=600px height=700px>
+      </a>
+      <p>
+         While making Ryan Simulator, I encountered difficulty with connecting the <br>
+         different scenes. When I connected the multiple scenes, I tried setting  <br>
+         up all of the events at once, but in doing so, I could not run the  <br>
+         program to check my progress. So, I was forced to do every event  <br>
+         individually. One of the iterative processes that I incorporated into  <br>
+         the program was when the user chose the "no" option using the input <br>
+         function. Everytime they chose "no", they would return to an entirely <br>
+         different story path where Ryan would choose to hang out with his friends <br>
+         and play tennis. 
+         <br> <br>
+         Organizing the scenes of my story is a form of procedural abstraction <br>
+         since the storyline is simplified into a series of functions. These functions <br>
+         can be reused anywhere inside of the code and always have the same outcome. <br>
+         For example, everytime the user entered a "no" option in Ryan Simulator, <br>
+         the "bromies()" function would play regardless of where it was.Abstracting <br> 
+         the scenes makes it simpler for the programmer to follow, since the scenes <br>
+         are organized in a sequential fashion. Also, in the if-statements based  <br>
+         on user-input, using the events as functions makes the code cleaner in <br>
+         comparison to having an entire storyline within one if-statement.<br>
+         <br><br>
+         One of the stories I liked the most was Sidney's story since it was a  <br>
+         funny and short retelling of Alex's highschool life.
+      </p>
+      <iframe height="400px" width="100%" src="https://repl.it/@WilsonNguyen/BigBrainRyanTrang?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
     </body>
 
         
